@@ -13,14 +13,14 @@ safe: true
 # for a normal use at the base of the server change it to "/"
 url: http://drenniks.github.io/
 baseurl: "/"
-title: Nell Byler
-name: Nell Byler
-email: nell.byler@gmail.com
-email_full: mailto:nell.byler@gmail.com
+title: Danielle Skinner
+name: Danielle Skinner
+email: drenniks@gatech.edu
+email_full: mailto:drenniks@gatech.edu
 website: drenniks.github.io
 website_full: https://drenniks.github.io
-github: nell-byler
-twitter: lstar_gal
+github: drenniks
+twitter: drenniks
 google_analytics: UA-85469455-1
 
 # needed for travis-ci build
