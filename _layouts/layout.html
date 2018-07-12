@@ -29,13 +29,22 @@
 <body>
 <div class="container">
     <header class="three columns">
-      <!-- <img src="{{ site.url }}static/img/profile.jpg" class="me"> -->
-  <img src="https://drenniks.github.io/static/img/profile.jpg" class="me">
+      <!-- <img src="{{ site.url }}static/img/profile.png" class="me"> -->
+  <img src="https://drenniks.github.io/static/img/profile.png" class="me">
         <h1>{{ site.name }}</h1>
         <p>
             <a href="{{ site.tel_full }}">{{ site.tel }}</a>
             <a href="{{ site.website_full }}">{{ site.website }}</a><br/>
         </p>
+         <address>
+            <a href="{{ site.google_maps }}">
+                {{ site.building }}<br/>
+                {{ site.address.street }}<br/>
+                {{ site.address.city }}<br/>
+                {{ site.address.postcode }}<br/>
+                {{ site.address.country }}
+            </a>
+        </address>
         <p>
             <a href="{{ site.email_full }}">{{ site.email }}</a><br/>
             <a href="https://github.com/{{ site.github }}"><i class="fa fa-github"></i> Github</a> /
@@ -46,8 +55,9 @@
         <nav>
         <ul>
             <li><a href="/">HOME</a></li>
+            <li><a href="/aboutme/">ABOUT ME</a></li>
             <li><a href="/research/">RESEARCH</a></li>
-            <li><a href="/teaching/">TEACHING</a></li>
+            <li><a href="/outreach/">OUTREACH</a></li>
         </ul>
         </nav>
         

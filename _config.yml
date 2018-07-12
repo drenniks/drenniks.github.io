@@ -27,7 +27,7 @@ address:
   street: 770 State St. NW
   postcode: 30313
   city: Atlanta, GA
-  country: United States of America
+  country: USA
 google_analytics: UA-122314908-1
 
 # needed for travis-ci build
