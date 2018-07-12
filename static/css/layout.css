@@ -40,7 +40,7 @@ p, address {
 }
 
 header > h1, section > h1 {
-    color: #ffb6c1;
+    color: #ffffff;
 }
 
 header > h1 {
@@ -89,7 +89,7 @@ article > header > span + span::before {
 }
 
 article > header > span {
-    color: #ffb6c1;
+    color: #ffffff;
     font-size: 100%;
 }
 
