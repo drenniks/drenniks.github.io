@@ -21,7 +21,14 @@ website: drenniks.github.io
 website_full: https://drenniks.github.io
 github: drenniks
 twitter: drenniks
-google_analytics: UA-85469455-1
+google_maps: 'https://www.google.com/maps/place/Gilbert+Hillhouse+Boggs+Building/@33.7757655,-84.4019365,17z/data=!3m1!4b1!4m5!3m4!1s0x88f5048963bf0de9:0xb9a8c30e4aaf1178!8m2!3d33.7757611!4d-84.3997425'
+address:
+  building: Center for Relativistic Astrophysics
+  street: 770 State St. NW
+  postcode: 30313
+  city: Atlanta, GA
+  country: United States of America
+google_analytics: UA-122314908-1
 
 # needed for travis-ci build
 exclude: [vendor]
