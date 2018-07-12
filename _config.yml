@@ -1,0 +1,27 @@
+highlighter: rouge
+markdown: kramdown
+rdiscount:
+  extensions: [smart]
+permalink: :title.html
+paginate: 5
+plugins: [jekyll-paginate]
+port: 4000
+safe: true
+
+# edit this section with your information
+# biomadeira.github.io - all contents run on /vitae/
+# for a normal use at the base of the server change it to "/"
+url: http://nell-byler.github.io/
+baseurl: "/"
+title: Nell Byler
+name: Nell Byler
+email: nell.byler@gmail.com
+email_full: mailto:nell.byler@gmail.com
+website: nell-byler.github.io
+website_full: https://nell-byler.github.io
+github: nell-byler
+twitter: lstar_gal
+google_analytics: UA-85469455-1
+
+# needed for travis-ci build
+exclude: [vendor]
