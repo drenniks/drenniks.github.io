@@ -5,8 +5,8 @@ body {
     font-size: 15px;
     line-height: 21px;
     color: rgb(48, 48, 48);
-    border-top: 8px solid #BBC3CC;
-    border-bottom: 8px solid #BBC3CC;
+    border-top: 8px solid #f5f5f5;
+    border-bottom: 8px solid #f5f5f5;
 }
 
 .container {
@@ -23,7 +23,7 @@ a:visited {
 }
 
 a:hover, a:focus {
-    color: #727272;
+    color: #ffffff;
 }
 
 p, address {
