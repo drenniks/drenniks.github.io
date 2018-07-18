@@ -1,12 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:700,400);
 
 body {
-    font-family: "Markazi", Helvetica, Arial, sans-serif;
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
     font-size: 15px;
     line-height: 21px;
     color: rgb(48, 48, 48);
-    border-top: 8px solid #ffb6c1;
-    border-bottom: 8px solid #ffb6c1;
+    border-top: 5px solid #27a822;
+    border-bottom: 5px solid #27A822;
 }
 
 .container {
@@ -23,7 +23,7 @@ a:visited {
 }
 
 a:hover, a:focus {
-    color: #ffffff;
+    color: #27A822;
 }
 
 p, address {
@@ -40,7 +40,7 @@ p, address {
 }
 
 header > h1, section > h1 {
-    color: #181818;
+    color: #27A822;
 }
 
 header > h1 {
@@ -89,7 +89,7 @@ article > header > span + span::before {
 }
 
 article > header > span {
-    color: #181818;
+    color: #808080;
     font-size: 100%;
 }
 
