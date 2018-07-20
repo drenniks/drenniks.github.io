@@ -10,3 +10,4 @@ Finally launched my site! Expect more soon.
 <br>
 <br>
 <br>
+<script id="dsq-count-scr" src="//https-drenniks-github-io.disqus.com/count.js" async></script>
