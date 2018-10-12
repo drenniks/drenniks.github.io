@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Super late "weekly" update!"
+title: "Super late 'weekly' update!"
 date: 2018-10-12
 ---
 
