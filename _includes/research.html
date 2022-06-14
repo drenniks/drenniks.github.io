@@ -1,12 +1,25 @@
 <section class="thirteen columns">
   <h1>Current Research Projects</h1>
-  I am currently investigating nucleosynthesis from neutron star mergers (NSM) in the very early universe. A major job of astrophysicists is to figure out where all the elements in the universe came from. While we know where a lot of elements come from, the source of the heaviest elements is still a bit of a mystery. The source of r-process elements, elements produced via the rapid process where neutrons are bombarded onto an atom to build up heavier metals, is what I will be focused on. In NSMs, a ton of r-process elements are produced, as seen by the gravitational wave detected by LIGO, GW170817. This could be a major source of r-process elements, but has not been investigated via cosmological simulations. 
+  I am currently investigating nucleosynthesis from neutron star mergers (NSM) in the very early universe. A portion of the first generation of stars (Population III, Pop III) that form in the universe will end up exploding in a supernova, and the remnant will fall back to become a neutron star (NS). Some of these NSs will pair up with another NS, destined to dance with one another until they merge together. This extreme event is thought to provide an environment to create r-process elements. These elements are produced via the rapid process where neutrons are bombarded onto an atom to build up heavier elements. About half of the elements heavier than iron are thought to be produced by the r-process, making this process extremely important to understand if we want to piece together the origin of the periodic table. 
   <br> 
   <br>
-  My current project is to model a NSM, which resulted form the supernova of two Pop III stars, within an ultra-faint dwarf (UFD) galaxy, to see how the NSM model parameters correlate with r-process abundances. We will be using Reticulum 2 as a case study, since that UFD galaxy contains r-process enhanced stars. This work has been funded by the Future Investigators in NASA Earth and Space Science and Technology award beginning in August of 2020. 
+  Using high resolution cosmological simulations, I am studying the r-process enrichment produced by a NSM in the early universe. To investigate this, I am studying a progenitor halo of an ultra-faint dwarf galaxy in a zoom-in simulation. I strategically chose this halo from a 4 Mpc$^{3}$ comoving box with a 512$^{3}$ base grid resolution by considering the distance to nearby halos, the virial ratio, and the mass of the halo (<a href="https://arxiv.org/pdf/1712.03967.pdf"><font color="#0000ff"></font>"Safarzadeh et al. 2018"</font></a>). I am re-running this halo at higher resolutions, with one, two, and three more nested grids. Upon completion, I will chose a Pop III star to become the NS binary system. I have added a NSM model to the Enzo simulation code, where a single Pop III star will be converted to a symmetric Pop III binary system (still modelled as a single particle). After their lifetime, they will both explode in a supernova and the particle will change to a NS binary system. At this point, three parameters (NSM explosion energy, time delay, and total r-process ejecta mass) will be varied to see how they effect r-process enrichment and the next generation of star formation. The chosen parameters can be seen in the table below, where each row corresponds to a different simulation. I will be using Reticulum 2 as a case study, since this UFD galaxy has been found to contain r-process enhanced stars (<a href="https://www.nature.com/articles/nature17425"><font color="#0000ff"></font>"Ji. et al. 2016"</font></a>). This work has been funded by the Future Investigators in NASA Earth and Space Science and Technology award beginning in August of 2020. 
   <br> 
   <br>
-  Excited results to come! 
+  |              | $t_{\rm merge}$ [Myr] | M$_{r}$ [M$_{\odot}]$         | E$_{\rm NSM}$ [erg]         |
+  |--------------|-----------------------|-------------------------------|-----------------------------|
+  | Fiducial     | 100                   | 10$^{-2}$                     | 10$^{50.5}$                 |
+  |              | \textbf{10}           | 10$^{-2}$                     | 10$^{50.5}$                 |
+  |              | \textbf{30}           | 10$^{-2}$                     | 10$^{50.5}$                 |
+  |              | \textbf{300}          | 10$^{-2}$                     | 10$^{50.5}$                 |
+  |              | 100                   | \textbf{10$^{\mathbf{-3}}$}   | 10$^{50.5}$                 |
+  |              | 100                   | \textbf{10$^{\mathbf{-1.4}}$} | 10$^{50.5}$                 |
+  |              | 100                   | 10$^{-2}$                     | \textbf{10$^{\mathbf{50}}$} |
+  |              | 100                   | 10$^{-2}$                     | \textbf{10$^{\mathbf{51}}$} |
+  | No NSM Event | --                    | --                            | --                          |
+  <br> 
+  <br>
+  As of June 2022, simulations are still running and I am in the process of creating an analysis pipeline. I have run my model on a test simulation, which can be seen below. 
   <br> 
   <br>
   <h1>Past Research Projects</h1>
