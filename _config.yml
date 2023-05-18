@@ -16,8 +16,8 @@ description: > # this means to ignore newlines until "baseurl:"
 # for a normal use at the base of the server change it to "/"
 url: http://drenniks.github.io/
 baseurl: "/"
-title: Danielle Skinner
-name: Danielle Skinner
+title: Dr. Danielle Skinner
+name: Dr. Danielle Skinner
 email: drenniks@gatech.edu
 email_full: mailto:drenniks@gatech.edu
 website: drenniks.github.io
