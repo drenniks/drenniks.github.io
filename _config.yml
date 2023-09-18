@@ -8,9 +8,7 @@ plugins: [jekyll-paginate]
 port: 4000
 safe: true
 description: > # this means to ignore newlines until "baseurl:"
-  Danielle Skinner - Graduate research assistant for Dr. John Wise 
-  in the Center for Relativistic Astrophysics at the Georgia
-  Institute of Technology. 
+  Danielle Skinner - Instructor in the Department of Physics at Oregon State University
 # edit this section with your information
 # biomadeira.github.io - all contents run on /vitae/
 # for a normal use at the base of the server change it to "/"
@@ -18,18 +16,18 @@ url: http://drenniks.github.io/
 baseurl: "/"
 title: Dr. Danielle Skinner
 name: Dr. Danielle Skinner
-email: drenniks@gatech.edu
-email_full: mailto:drenniks@gatech.edu
+email: skinneda@oregonstate.edu
+email_full: mailto:skinneda@oregonstate.edu
 website: drenniks.github.io
 website_full: https://drenniks.github.io
 github: drenniks
 twitter: drenniks
-google_maps: 'https://www.google.com/maps/place/Gilbert+Hillhouse+Boggs+Building/@33.7757655,-84.4019365,17z/data=!3m1!4b1!4m5!3m4!1s0x88f5048963bf0de9:0xb9a8c30e4aaf1178!8m2!3d33.7757611!4d-84.3997425'
+google_maps: 'https://maps.app.goo.gl/kT3pLhFUsp6mvhFe6'
 address:
-  building: Center for Relativistic Astrophysics
-  street: 770 State St. NW
-  postcode: 30313
-  city: Atlanta, GA
+  building: Weniger Hall
+  street: 301 Weniger Hall, Office 411
+  postcode: 97331
+  city: Corvallis, OR
   country: USA
 google_analytics: UA-122314908-1
 
